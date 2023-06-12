@@ -65,8 +65,16 @@ section {
 }
 
 footer {
-  background-color: rgb(123, 112, 112);
-  padding: 5px;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(49, 49, 49);
+  }
   .footer-github-link {
     font-weight: bold;
     color: rgb(230, 230, 234);
