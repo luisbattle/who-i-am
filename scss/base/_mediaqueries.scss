@@ -1,0 +1,42 @@
+@media (min-width: 300px) {
+  header {
+    p {
+      font-size: 40px;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+    .job-position {
+      font-size: 20px;
+    }
+    .bi-linkedin {
+      font-size: 30px;
+    }
+    .img-profile {
+      height: 180px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    p {
+      font-size: 40px;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+    .job-position {
+      font-size: 20px;
+    }
+    .bi-linkedin {
+      font-size: 30px;
+    }
+
+    .img-profile {
+      height: 195px;
+    }
+  }
+}

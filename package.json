@@ -1,0 +1,13 @@
+{
+  "name": "who-i-am",
+  "version": "1.0.0",
+  "description": "Una pequeña descripcion acerca de mi...",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss:css",
+    "build": "sass scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

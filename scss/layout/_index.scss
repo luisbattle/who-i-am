@@ -1,0 +1,83 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  height: 200px;
+  background-color: black;
+  background-image: url(/assets/profile_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .profile-header-container {
+    border: 0.3px solid rgb(92, 92, 92);
+    border-radius: 30px;
+  }
+  .img-profile {
+    // transition: all 1s;
+    object-fit: contain;
+    border-radius: 500px;
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+
+    &:hover {
+      // height: 165px;
+      transition: all 1s;
+    }
+  }
+  h2,
+  p {
+    color: rgb(160, 160, 160);
+  }
+}
+
+section {
+  padding-top: 20px;
+  background-color: black;
+
+  h2,
+  p {
+    color: rgb(160, 160, 160);
+  }
+  .section-title {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  .experience {
+    gap: 5px;
+  }
+  .cards {
+    border: 0.2px solid rgb(67, 67, 67);
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    a {
+      font-style: italic;
+      font-weight: bold;
+    }
+    a:visited {
+      color: rgb(160, 160, 160);
+    }
+  }
+}
+
+footer {
+  background-color: rgb(123, 112, 112);
+  padding: 5px;
+  .footer-github-link {
+    font-weight: bold;
+    color: rgb(230, 230, 234);
+  }
+  a {
+    &:link {
+      color: rgb(144, 144, 144);
+    }
+    &:hover {
+      color: white;
+      font-style: italic;
+    }
+  }
+}
